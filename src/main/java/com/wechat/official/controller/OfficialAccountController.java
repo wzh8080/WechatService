@@ -12,10 +12,10 @@ import java.util.Arrays;
 @RestController
 @RequestMapping("official")
 @Slf4j
-public class TokenController {
+public class OfficialAccountController {
     private final TokenService tokenService;
 
-    public TokenController(TokenService tokenService) {
+    public OfficialAccountController(TokenService tokenService) {
         this.tokenService = tokenService;
     }
 
