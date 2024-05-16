@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 @Slf4j
 public class TokenDaoImpl implements TokenDao {
-    @Value("${wechat.official.token.expire.minute}")
+    @Value("${wechat.official.token.expire_minute}")
     private int expireMin;
 
     private final JdbcTemplate jdbcTemplate;
